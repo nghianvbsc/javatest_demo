@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/tvTitleQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu 2/20"
+        android:textColor="#941d1d"
+        android:textSize="@dimen/_17sdp" />
+
+    <TextView
+        android:id="@+id/tvContenQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitleQuestion"
+        android:text="Câu hỏi ở đây"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_17sdp" />
+
+
+</RelativeLayout>

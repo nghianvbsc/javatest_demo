@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Giới thiệu"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Trắc nghiệm Java - là một mini game đơn giản
+        về kiến thứ lập trình căn bản. Ứng dụng là một bài test trắc nghiệm gồm có 3 mức độ khác nhau.
+        Bạn có thể lựa chọn mức độ của bài test thuộc một trong ba mức độ và có tối đa 20 câu
+        hỏi cho mỗi bài test. Ứng dụng sẽ tính điểm và đán giá năng lực của bạn. Chúc bạn đạt kết
+        quả tốt!"
+            android:textColor="#696969"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</ScrollView>

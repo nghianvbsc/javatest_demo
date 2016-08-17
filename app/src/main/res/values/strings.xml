@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JavaTest</string>
+    <string name="text_play">Chơi</string>
+    <string name="text_score">Điểm</string>
+    <string name="text_guide">Hướng dẫn</string>
+    <string name="text_exit">Thoát</string>
+    <string name="text_title">Trắc Nghiệm \n Java</string>
+    <string name="text_level_easy">Dễ</string>
+    <string name="text_level_midium">Trung Bình</string>
+    <string name="text_level_di">Khó</string>
+    <string name="text_choice_level">Chọn mức độ</string>
+</resources>
